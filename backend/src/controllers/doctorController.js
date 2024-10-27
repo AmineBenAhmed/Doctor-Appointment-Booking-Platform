@@ -1,7 +1,7 @@
 import doctorModel from "../models/doctorModel.js"
 
 
-const changeAvailability = async (req, res) => {
+export const changeAvailability = async (req, res) => {
   try {
     const {docId} = req.body
 
@@ -16,4 +16,6 @@ const changeAvailability = async (req, res) => {
   }
 }
 
-export {changeAvailability}
+export const doctorList = async () => {
+    
+}
